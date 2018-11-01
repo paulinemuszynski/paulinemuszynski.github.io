@@ -49,7 +49,7 @@ body, html {
 }
 
 .nom{
-  font-size : 250%;
+  font-size : 40px;
   color: black;
   text-align: center;
   box-sizing: inherit;
@@ -107,7 +107,7 @@ color :  #808080 ;
   width: auto;
   font-family: modern;
   color: black;
-  font-size: 120%;
+  font-size: 20px;
   display: block;
   margin-left: 16px;
   margin-top: 80px;
@@ -141,8 +141,9 @@ color :  #808080 ;
   margin-top: 100px;
 }
 
-h2{
-  font-size: 230%;
+#pave h2{
+  font-size: 25px;
+  color : #595959;
 }
 #pave {
   width : 75% ;
@@ -156,7 +157,7 @@ h2{
   color :  #808080 ;
   text-align: center;
   text-justify: inter-word;
-  font-size : 90%;
+  font-size : 15px;
   margin-bottom: 75px;
 }
 
@@ -188,7 +189,7 @@ h2 {
   color :  #808080 ;
    text-align: center;
    text-justify: inter-word;
-   font-size : 120%;
+   font-size : 25px;
    display: block;
   }
 
@@ -246,7 +247,13 @@ h2 {
   color : white ;
   text-align: center;
   text-justify: inter-word;
-  font-size: 110%;
+  font-size:20px;
+}
+
+
+.infos h2 {
+    font-size: 25px;
+    color : #595959;
 }
 
 #reseaux{
@@ -273,6 +280,46 @@ h2 {
   body {
       margin: 0;
   }
+
+  .nom{
+    font-size :25px;
+    color: black;
+    text-align: center;
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: Hello;
+  }
+
+  #rectangle_centre{
+    background-color : #E6E6E6 ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 1%;															 /* CLASS --> . */
+  }
+
+  .menu {
+      overflow: hidden;
+      font-family: modern;
+      position: fixed;
+      z-index: 2;
+      background-color: #E6E6E6;
+  }
+
+  .menu a {
+      float: left;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  .menu a:hover {
+      color: black;
+  }
+
   #moi {
     /* background-color: green; */
     width: 100%;
@@ -363,6 +410,11 @@ h2 {
     margin-bottom: 0;
   }
 
+#pave h2 {
+  font-size: 25px;
+  color : #595959;
+}
+
   #pave h4 {
     margin-bottom: 5px;
   }
@@ -384,7 +436,7 @@ h2 {
   #blocblanc {
     margin-bottom: 0;
 }
-}
+
 
 @media only screen and (max-width: 992px) {
     .responsive {
