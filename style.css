@@ -26,8 +26,8 @@
 }
 
 .menu a:hover {
-    background-color: #E6E6E6;
-    color: black;
+    background-color: #C5E99B;
+    color: #548687;
 }
 
 /*effet parallax*/
@@ -50,7 +50,7 @@ body, html {
 
 .nom{
   font-size : 40px;
-  color: black;
+  color: #548687;
   text-align: center;
   box-sizing: inherit;
   white-space: nowrap;
@@ -58,7 +58,7 @@ body, html {
 }
 
 #rectangle_centre{
-  background-color : #E6E6E6 ;
+  background-color : #C5E99B;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -77,17 +77,20 @@ body, html {
 }
 
 #moi{
-  /*background-color: green;*/
-width : 50% ;
-margin-left : 25% ;
-margin-top : 10% ;
-vertical-align : top;
-font-family : modern ;
-color :  #808080 ;
- text-align: center;
- text-justify: inter-word;
- font-size : 28px;
- display: block;
+  width : 50% ;
+  margin-left : 25% ;
+  margin-top : 10% ;
+  vertical-align : top;
+  font-family : modern ;
+  color :  #808080 ;
+   text-align: center;
+   text-justify: inter-word;
+   font-size : 28px;
+   display: block;
+}
+
+#moi h2 {
+  color : #548687;
 }
 
 #photoprofil{
@@ -116,15 +119,15 @@ color :  #808080 ;
 
 #photoprofil p::first-letter {
   color: black;
-  font-size: 190%;
+  font-size: 40px;
 }
 
 
 .humour{
-  width: 99%;
+  width: 100%;
   height: auto;
   display: inline-block;
-  background-color: #808080;
+  background-color: #548687;
   font-family: modern;
   color: white;
   padding: 2%;
@@ -143,29 +146,24 @@ color :  #808080 ;
 
 #pave h2{
   font-size: 25px;
-  color : #595959;
+  color : #548687;
 }
 #pave {
-  width : 65% ;
-  margin-left : 10% ;
-  background-color : white ;
+  width : 50% ;
+  padding: 3%;
+  margin-left : 25% ;
+  background-color : #C5E99B ;
   display : inline-block ;
-  margin-top : 1% ;
+  margin-top : 0 ;
   vertical-align : top;
-  padding : 2px 2px 3px 12px ;
   font-family : modern ;
   color :  #808080 ;
   text-align: center;
   text-justify: inter-word;
   font-size : 20px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
-/* h2{
-  color : black;
-  font-family: modern;
-  font-size: 170%;
-} */
 h2 {
   color: black;
   font-family: modern;
@@ -193,6 +191,9 @@ h2 {
    display: block;
   }
 
+.projets h2 {
+  color : #548687;
+}
 
 
 #blocblanc2{
@@ -203,15 +204,20 @@ h2 {
 /*GALLERIE IMAGE*/
 
 .gallery {
-    border: 1px solid #808080;
+  border: 1px solid #8FBC94;
 	font-family : modern;
   margin-top: 10%;
+  -webkit-filter: blur(2px) grayscale(100%);
+  filter: blur(2px) grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .gallery:hover {
-    border : 1px solid #808080;
-    opacity: 0.75;
-  }
+    border : 1px solid #8FBC94;
+	-webkit-filter: blur(0) grayscale(0);
+	filter: blur(0) grayscale(0);
+}
 
 .gallery img {
     width: 100%;
@@ -229,18 +235,31 @@ h2 {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 6px 6px;
     float: left;
-    width: 24.99999%;
+    margin-left: 150px;
+    width: 23%;
 }
 
-
+.telecharger{
+  width : 100% ;
+  background-color : #548687 ;
+  display : inline-block ;
+  margin-top : 5% ;
+  vertical-align : top;
+  padding : 1% ;
+  font-family : modern ;
+  color : white ;
+  text-align: center;
+  text-justify: inter-word;
+  font-size:18px;
+}
 
 .infos {
   width : 100% ;
-  background-color : #808080 ;
+  background-color : #56445D ;
   display : inline-block ;
-  margin-top : 10% ;
+  margin-top :5% ;
   vertical-align : top;
   padding : 2px 2px 3px 12px ;
   font-family : modern ;
@@ -253,7 +272,7 @@ h2 {
 
 .infos h2 {
     font-size: 25px;
-    color : #595959;
+    color : white;
 }
 
 #reseaux{
@@ -264,6 +283,14 @@ h2 {
   text-decoration: none;
   color : white;
   margin-left: 2%;
+}
+
+#reseaux p {
+  color: white;
+}
+
+#reseaux p a {
+  margin-right: 80px;
 }
 
 #reseaux a:hover{
@@ -291,7 +318,7 @@ h2 {
   }
 
   #rectangle_centre{
-    background-color : #E6E6E6 ;
+    background-color :#C5E99B;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -300,26 +327,28 @@ h2 {
   }
 
   .menu {
+      width : 100%;
       overflow: hidden;
       font-family: modern;
       position: fixed;
       z-index: 2;
-      background-color: #E6E6E6;
-      padding: 16px 18px;
-      font-size: 20px;
+      background-color: ;
+      padding: 8px 10px;
+      font-size: 10px;
+      background-color: #C5E99B;
   }
 
   .menu a {
-      float: left;
-      color:grey;
+      margin-left: 2%;
+      color:white;
       text-align: center;
-      padding: 10px 12px;
+      padding: 10px 10px;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 18px;
   }
 
   .menu a:hover {
-      color: black;
+      color: #548687;
   }
 
   #moi {
@@ -338,6 +367,10 @@ h2 {
     padding-right: 7%;
   }
 
+#moi h2 {
+    color :#548687;
+}
+
   #photoprofil {
     /*background-color: green;*/
     width : 100% ;
@@ -352,10 +385,8 @@ h2 {
   }
 
   #photoprofil p {
-    /* background-color: green; */
     width: 100%;
     display: block;
-    /* margin-top: 1%; */
     font-family: modern;
     text-align: justify;
     text-justify: inter-word;
@@ -376,7 +407,7 @@ h2 {
     width: 100%;
     height:auto;
     display: block;
-    background-color: #808080;
+    background-color: #548687;
     font-family: modern;
     color: white;
     padding: 0;
@@ -401,11 +432,11 @@ h2 {
     width: 100%;
     margin-left: 0;
     margin-top: 5%;
-    background-color: #808080;
+    background-color: #C5E99B;
     display: block;
     padding: 20px;
     font-family: modern;
-    color: white;
+    color: #548687;
     text-align: center;
     text-justify: inter-word;
     font-size: 16px;
@@ -414,7 +445,7 @@ h2 {
 
 #pave h2 {
   font-size: 25px;
-  color : #595959;
+  color : #548687;
 }
 
   #pave h4 {
@@ -429,11 +460,54 @@ h2 {
     font-family: modern;
     color: #808080;
     text-align: center;
-    text-justify: inter-word;
     font-size: 16px;
     display: block;
     padding: 16px;
   }
+
+  .gallery {
+    border: 1px solid #8FBC94;
+  	font-family : modern;
+    margin-top: 10%;
+    -webkit-filter: blur(0) grayscale(0);
+    filter: blur(0) grayscale(0);
+  }
+
+  .gallery:hover {
+      border : 1px solid #8FBC94;
+  	-webkit-filter: blur(0) grayscale(0);
+  	filter: blur(0) grayscale(0);
+  }
+
+  .telecharger{
+    width : 100% ;
+    background-color : #548687 ;
+    display : inline-block ;
+    margin-top : 5% ;
+    padding : 0 ;
+  }
+
+.telecharger p{
+  font-family : modern ;
+  color : white ;
+  text-align: center;
+  text-justify: inter-word;
+  font-size:17px;
+  padding : 2% ;
+  margin-left: 10px;
+}
+
+  #reseaux p {
+    color: white;
+  }
+
+  #reseaux p a {
+    margin-right: 235px;
+  }
+
+.infos h2 {
+  color : white;
+}
 
   #blocblanc {
     margin-bottom: 0;
