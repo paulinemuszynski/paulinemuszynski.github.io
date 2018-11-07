@@ -146,19 +146,19 @@ color :  #808080 ;
   color : #595959;
 }
 #pave {
-  width : 65% ;
+  width : 80% ;
   margin-left : 10% ;
   background-color : white ;
   display : inline-block ;
-  margin-top : 1% ;
+  margin-top : 0 ;
   vertical-align : top;
-  padding : 2px 2px 3px 12px ;
+  padding : 2px 2px 3px 3px ;
   font-family : modern ;
   color :  #808080 ;
   text-align: center;
   text-justify: inter-word;
   font-size : 20px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* h2{
@@ -229,9 +229,10 @@ h2 {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 6px 6px;
     float: left;
-    width: 24.99999%;
+    margin-left: 190px;
+    width: 35%;
 }
 
 
