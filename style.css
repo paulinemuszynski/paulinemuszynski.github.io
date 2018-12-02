@@ -149,7 +149,6 @@ body, html {
   color : #548687;
 }
 #pave {
-<<<<<<< HEAD
   width : 50% ;
   padding: 3%;
   margin-left : 25% ;
@@ -157,15 +156,6 @@ body, html {
   display : inline-block ;
   margin-top : 0 ;
   vertical-align : top;
-=======
-  width : 80% ;
-  margin-left : 10% ;
-  background-color : white ;
-  display : inline-block ;
-  margin-top : 0 ;
-  vertical-align : top;
-  padding : 2px 2px 3px 3px ;
->>>>>>> master
   font-family : modern ;
   color :  #808080 ;
   text-align: center;
@@ -247,13 +237,8 @@ h2 {
 .responsive {
     padding: 6px 6px;
     float: left;
-<<<<<<< HEAD
     margin-left: 150px;
     width: 23%;
-=======
-    margin-left: 190px;
-    width: 35%;
->>>>>>> master
 }
 
 .telecharger{
@@ -486,6 +471,7 @@ h2 {
     margin-top: 10%;
     -webkit-filter: blur(0) grayscale(0);
     filter: blur(0) grayscale(0);
+
   }
 
   .gallery:hover {
