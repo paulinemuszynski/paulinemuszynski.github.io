@@ -778,6 +778,9 @@ ul.hb-list li h6 {
     .rating {
         float: right;
     }
+	.data.left{
+		display: none;
+	}
 }
 
 /* For Tablets */
@@ -786,6 +789,7 @@ ul.hb-list li h6 {
         float: left;
         margin-left: 5%;
     }
+
 }
 
 .rating span {
