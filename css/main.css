@@ -193,9 +193,9 @@
 
 .main-nav ul li a span{
 	display:block;
-	font-size:13px;
-	font-weight: 400;
-	color:#999999;
+	font-size:14px;
+	font-weight: 450;
+	color:#708090;
 }
 
 
@@ -589,8 +589,8 @@ img.signature{
 
 
 .timeline .timeline-inner .name span.date {
-    color:#999999;
-    font-size: 13.5px;
+    color:#708090;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -751,7 +751,7 @@ ul.hb-list li span i{
 
 
 ul.hb-list li h6 {
-    color: #999999;
+    color: #708090;
     margin-top: 10px;
 	font-style:italic;
 	font-size:14.5px;
@@ -1105,7 +1105,7 @@ ul.hb-list li h6 {
 .contact-form input[type="text"], .contact-form textarea, .reply-form input[type="text"], .reply-form textarea {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #eaeaea;
-    color: #999999;
+    color: #708090;
     margin: 0 0 14px;
     outline: 0 none;
     overflow: hidden;
@@ -1128,7 +1128,7 @@ ul.hb-list li h6 {
 
 .contact-form textarea, .reply-form textarea {
     width: 100%;
-	color: #999999;
+	color: #708090;
 	font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
 
 }
@@ -1193,7 +1193,7 @@ ul.hb-list li h6 {
 
 
 .info a {
-    color: #999999;
+    color: #708090;
 }
 
 

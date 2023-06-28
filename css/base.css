@@ -84,8 +84,8 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 ================================================== */
 	body {
 		background: #eaeaea;
-		font: 14px/22px "Source Sans Pro","Helvetica","Arial",sans-serif;
-		color: #999999;
+		font: 16px/22px "Source Sans Pro","Helvetica","Arial",sans-serif;
+		color: #708090;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		margin:0;
@@ -111,16 +111,16 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
 	.main-title h3 {
-		font-size: 20px;
-		color:#999999;
+		font-size: 28px;
+		color:#708090;
 		font-weight: 300;
 	}
 	
 	
 	.main-title h5 {
-		font-size: 15px;
-		color:#999999;
-		font-weight: 300;
+		font-size: 18px;
+		color:#708090;
+		font-weight: 400;
 	}
 	
 	
@@ -196,7 +196,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	
 	
 	input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder, input[type="search"]::-moz-placeholder {
-	    color: #999999;
+	    color: #708090;
 	}
 	
 	
@@ -227,7 +227,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 		display:inline-block;
 		color:#2a2a2a;
 		border:1px solid #eaeaea;
-		font-size:12px;
+		font-size:13px;
 		letter-spacing: 1px;
 		font-weight: 400;
 	}
@@ -346,7 +346,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	.emph-1{color:#2a2a2a;}
 	.emph-2{color:#ffd42d;}
 	.emph-3{font-style:italic;}
-	.emph-4{color:#999999;}
+	.emph-4{color:#708090;}
 
 
 
